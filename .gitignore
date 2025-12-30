@@ -1,0 +1,24 @@
+# ---------- Hugo build output ----------
+/public/
+/resources/
+.hugo_build.lock
+
+# ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# ---------- Node / JS (themes may use) ----------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ---------- Temporary files ----------
+*.log
+*.tmp
+*.swp
+
+# ---------- Cache ----------
+.cache/
