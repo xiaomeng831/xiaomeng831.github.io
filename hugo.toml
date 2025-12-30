@@ -3,14 +3,22 @@ languageCode = "en-us"
 title = "Xiaomeng's Tech Notes"
 theme = "PaperMod"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 [params]
+  defaultTheme = "auto"          # dark / light / auto
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
-[menu]
+[markup]
+  [markup.highlight]
+    noClasses = false
 
+[menu]
   [[menu.main]]
     name = "Posts"
     url = "/posts/"
